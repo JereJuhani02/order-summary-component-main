@@ -1,0 +1,125 @@
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Red hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+}
+
+h1 {
+  margin-top: 45px;
+  font-family: 'Red hat Display', sans-serif;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%)
+}
+
+.frame {
+  background-color: white;
+  width: 450px;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.summary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  width: 350px;
+  height: 100px;
+  background-color: hsl(225, 100%, 98%);
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.order img {
+  float: left;
+  margin: auto;
+}
+
+.price {
+  margin: auto 0;
+}
+
+.plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.change {
+  font-size: 13px;
+  font-family: 'Red hat Display', sans-serif;
+  font-weight: 900;
+  margin: auto;
+}
+
+.change:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-family: 'Red hat Display', sans-serif;
+  font-weight: 900;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 10px 50px 1px hsl(224, 23%, 55%);
+}
+
+.payment:hover {
+  opacity: 0.7;
+}
+
+.cancel {
+  font-family: 'Red hat Display', sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  color: hsl(224, 23%, 55%);
+  background: none;
+  border: none;
+  margin-top: 35px;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+button {
+  display: block;
+  margin: auto;
+}
